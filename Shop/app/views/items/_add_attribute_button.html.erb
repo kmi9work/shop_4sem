@@ -1,0 +1,7 @@
+              <td colspan = "2">
+                <div class = "button-link"><span>
+                  <%= link_to_remote('Добавить еще одно свойство',
+                                    :url => {:action => :add_attribute,
+                                             :last_item => last_item}) %>
+                </span></div>
+              </td>

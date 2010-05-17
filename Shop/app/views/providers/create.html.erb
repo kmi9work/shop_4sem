@@ -1,0 +1,29 @@
+<% form_tag({:action => :create_commit}, {:name => 'providers_form'}) do %>
+<table class = "edit">
+  <caption>Создание нового поставщика</caption>
+  <thead>
+    <tr>
+      <th colspan = "2">
+        <%= submit_tag('Создать')  %>
+        <%= button_to_function('Отмена',
+          "document.providers_form.action = '#{url_for(:action => :list)}';
+           document.providers_form.submit();")  %>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Название поставщика:</th>
+      <td><%= text_field_tag('provider[name]', '', :size => 20)  %></td>
+    </tr>
+    <tr>
+      <th>Юридический адрес:</th>
+      <td><%= text_field_tag('provider[address]', '', :size => 20)  %></td>
+    </tr>
+    <tr>
+      <th>Доверительный коэфициент:</th>
+      <td><%= text_field_tag('provider[ratio]', '', :size => 5)  %></td>
+    </tr>
+  </tbody>
+</table>
+<% end %>

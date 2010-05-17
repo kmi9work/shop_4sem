@@ -1,0 +1,51 @@
+<table class = "edit">
+  <caption>Просмотр товара</caption>
+  <thead>
+    <tr>
+      <th colspan = "2">
+        <div class = "button-link">
+          <span>
+            <%= link_to('Вернуться в список товаров', :action => :list,
+              :catalogue_id => @item.catalogue_id) %>
+          </span>
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Название товара:</th>
+      <td><%= @item.name %></td>
+    </tr>
+    <tr>
+      <th>Размеры товара:</th>
+      <td>
+        <%= @item.size_x %> мм X
+        <%= @item.size_y %> мм X
+        <%= @item.size_z %> мм
+      </td>
+    </tr>
+    <tr>
+      <th>Вес товара:</th>
+      <td><%= @item.weight %> кг</td>
+    </tr>
+    <% @item.prms.each do |k, v| %>
+    <tr>
+      <th><%= k %></th>
+      <td><%= v %></td>
+    </tr>
+    <% end %>
+    <tr>
+      <th>Каталог:</th>
+      <td><%= @item.catalogue_name() %></td>
+    </tr>
+    <tr>
+      <th>Цена:</th>
+      <td><%= @item.price() %></td>
+    </tr>
+    <tr>
+      <th>Количество товара:</th>
+      <td><%= @item.quantity() %></td>
+    </tr>
+  </tbody>
+</table>

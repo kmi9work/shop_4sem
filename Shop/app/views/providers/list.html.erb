@@ -1,0 +1,27 @@
+<TABLE class = "list">
+  <CAPTION>Поставщики</CAPTION>
+  <% if @items.size == 0 %>
+    <%=  empty_list() %>
+  <% else %>
+    <THEAD>
+      <TR>
+        <TH>Название</TH>
+        <TH>Юридический адрес</TH>
+        <TH>Дов. коэф.</TH>
+        <% if @inline_actions.size > 0  %>
+        <TH>Действия</TH>
+        <% end %>
+      </TR>
+    </THEAD>
+    <TBODY>
+      <% @items.each do |p| %>
+      <TR>
+        <TD><%= p.name %></TD>
+        <TD><%= p.address %></TD>
+        <TD><%= p.ratio %></TD>
+        <%= inline_menu(p) %>
+      </TR>
+      <% end %>
+    </TBODY>
+  <% end %>
+</TABLE>

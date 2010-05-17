@@ -1,0 +1,33 @@
+<table>
+  <thead>
+    <tr>
+      <th colspan = "2">Ценовой период</th>
+      <th rowspan = "2">Цена</th>
+      <th rowspan = "2">Отметить <br> для удаления</th>
+    </tr>
+    <tr>
+      <th>Начало</th>
+      <th>Конец</th>
+    </tr>
+  </thead>
+  <tbody class = "non-editable">
+    <% i = 0 %>
+    <% unless item.nil? %>
+    <% item.item_periods.each do |p| %>
+      <tr>
+        <td><%= p.start_date %></td>
+        <td><%= p.end_date %></td>
+        <td><%= p.price %></td>
+        <td><%= check_box_tag("deleted_period[#{i}]", p.id, false) %></td>
+      </tr>
+      <% i += 1 %>
+    <% end %>
+    <% end %>
+  </tbody>
+  <tfoot>
+    <tr id = "add_item_period">
+      <%= render(:partial => 'item_periods/create_button',
+                 :locals => {:create_index => '0'}) %>
+    </tr>
+  </tfoot>
+</table>

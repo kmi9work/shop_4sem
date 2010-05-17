@@ -1,0 +1,77 @@
+<% form_tag({:action => :create_commit}, {:name => 'items_form'}) do %>
+<table class = "edit">
+  <caption>Создание нового товара</caption>
+  <thead>
+    <tr>
+      <th colspan = "2">
+        <%= submit_tag('Создать')  %>
+        <%= button_to_function('Отмена',
+          "document.items_form.action = '#{url_for(:action => :list)}';
+           document.items_form.submit();")  %>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Название товара:</th>
+      <td><%= text_field_tag('item[name]', '', :size => 20)  %></td>
+    </tr>
+    <tr>
+      <th>Размеры товара:</th>
+      <td>
+        X: <%= text_field_tag('item[size_x]', '', :size => 5)  %>
+        Y: <%= text_field_tag('item[size_y]', '', :size => 5)  %>
+        Z: <%= text_field_tag('item[size_z]', '', :size => 5)  %>
+      </td>
+    </tr>
+    <tr>
+      <th>Вес товара:</th>
+      <td><%= text_field_tag('item[weight]', '', :size => 5)  %></td>
+    </tr>
+    <tr>
+      <th>Каталог:</th>
+      <td><%= catalogues_list() %></td>
+    </tr>
+    <tr>
+      <th>Описания товара:</th>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Ключ</th>
+              <th>Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+             <%= render(:partial => 'attribute_row',
+                        :locals => {:id_num => '0',
+                                    :key => '',
+                                    :value => ''}) %>
+          </tbody>
+          <tfoot>
+            <tr id = "add">
+              <%= render(:partial => 'add_attribute_button',
+                         :locals => {:last_item => '0'}) %>
+            </tr>
+          </tfoot>
+        </table>
+      </tr>
+      <tr>
+        <th>Цены:</th>
+        <td>
+          <%= render(:partial => 'item_periods/editable_list',
+                     :locals => {:item => nil,
+                                 :sender_class => ItemsController })  %>
+        </td>
+      </tr>
+      <tr>
+        <th>Склады:</th>
+        <td>
+          <%= render(:partial => 'item_storages/editable_list',
+                     :locals => {:item => nil,
+                                 :sender_class => ItemsController })  %>
+        </td>
+      </tr>
+  </tbody>
+</table>
+<% end %>

@@ -1,0 +1,1707 @@
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/catalogue_test.rb:1:in `require'
+./test/unit/catalogue_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+Unable to load provding, underlying cause no such file to load -- provding 
+
+ /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:158:in `require'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:265:in `require_or_load'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:224:in `depend_on'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:136:in `require_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:850:in `try_to_load_dependency'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:865:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:862:in `require_fixture_classes'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/fixtures.rb:845:in `fixtures'
+./test/test_helper.rb:35
+./test/functional/catalogues_controller_test.rb:1:in `require'
+./test/functional/catalogues_controller_test.rb:1
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `load'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (17.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.5ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:36:22.251068', '2010-05-16 17:36:22.251068', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:36:40.473352', '2010-05-16 17:36:40.473352', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:37:24.397515', '2010-05-16 17:37:24.397515', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:37:46.268567', '2010-05-16 17:37:46.268567', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:38:33.966604', '2010-05-16 17:38:33.966604', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 17:38:33.980676', '2010-05-16 17:38:33.980676', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 17:38:49.790971', '2010-05-16 17:38:49.790971', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.7ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 17:38:49.805659', '2010-05-16 17:38:49.805659', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.5ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:53:42.337707', '2010-05-16 18:53:42.337707', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:53:42.351248', '2010-05-16 18:53:42.351248', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:53:42.354278', 100.0, '2010-05-16 18:53:42.362333', '2010-05-16 18:53:42.362333', '2010-05-16 23:53:42.354281', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:53:42.369320', 1000.0, '2010-05-16 18:53:42.371588', '2010-05-16 18:53:42.371588', '2010-05-17 01:53:42.369331', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:53:42.373336', 1000.0, '2010-05-16 18:53:42.375382', '2010-05-16 18:53:42.375382', '2010-05-16 23:53:42.373338', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:53:42.376960', 1000.0, '2010-05-16 18:53:42.379122', '2010-05-16 18:53:42.379122', '2010-05-17 00:53:42.376968', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:53:42.389333', 2, '2010-05-16 18:53:42.389333', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.3ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.4ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:53:42.398498', 3, '2010-05-16 18:53:42.398498', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:53:42.403347', 5, '2010-05-16 18:53:42.403347', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.3ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:53:42.428026', 2, 1, '2010-05-16 18:53:42.428026', '2010-05-16 22:53:42.420941', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.3ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:53:42.437246', 3, 2, '2010-05-16 18:53:42.437246', '2010-05-16 23:53:42.433780', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:53:42.441970', 5, 1, '2010-05-16 18:53:42.441970', '2010-05-17 00:53:42.439033', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:53:42.448277', '2010-05-16 18:53:42.448277', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:53:42.455207', '2010-05-16 18:53:42.455207', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:54:52.869663', '2010-05-16 18:54:52.869663', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:54:52.884009', '2010-05-16 18:54:52.884009', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:54:52.887234', 100.0, '2010-05-16 18:54:52.894952', '2010-05-16 18:54:52.894952', '2010-05-16 23:54:52.887236', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:54:52.902011', 1000.0, '2010-05-16 18:54:52.904299', '2010-05-16 18:54:52.904299', '2010-05-17 01:54:52.902024', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:54:52.906005', 1000.0, '2010-05-16 18:54:52.908020', '2010-05-16 18:54:52.908020', '2010-05-16 23:54:52.906008', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:54:52.909576', 1000.0, '2010-05-16 18:54:52.911691', '2010-05-16 18:54:52.911691', '2010-05-17 00:54:52.909584', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:54:52.922617', 2, '2010-05-16 18:54:52.922617', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.3ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:54:52.932548', 3, '2010-05-16 18:54:52.932548', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:54:52.938043', 5, '2010-05-16 18:54:52.938043', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:54:52.945682', '2010-05-16 18:54:52.945682', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:54:52.968215', '2010-05-16 18:54:52.968215', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:54:52.973366', '2010-05-16 18:54:52.973366', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.3ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:54:52.995283', 2, 1, '2010-05-16 18:54:52.995283', '2010-05-16 22:54:52.987513', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.2ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:54:53.003456', 3, 2, '2010-05-16 18:54:53.003456', '2010-05-16 23:54:53.000283', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:54:53.008498', 5, 1, '2010-05-16 18:54:53.008498', '2010-05-17 00:54:53.005346', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:54:53.014800', '2010-05-16 18:54:53.014800', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:54:53.022071', '2010-05-16 18:54:53.022071', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:56:07.859272', '2010-05-16 18:56:07.859272', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:56:07.873096', '2010-05-16 18:56:07.873096', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:56:07.875834', 100.0, '2010-05-16 18:56:07.883946', '2010-05-16 18:56:07.883946', '2010-05-16 23:56:07.875836', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:56:07.889354', 1000.0, '2010-05-16 18:56:07.891585', '2010-05-16 18:56:07.891585', '2010-05-17 01:56:07.889365', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:56:07.893331', 1000.0, '2010-05-16 18:56:07.895345', '2010-05-16 18:56:07.895345', '2010-05-16 23:56:07.893333', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:56:07.896954', 1000.0, '2010-05-16 18:56:07.899341', '2010-05-16 18:56:07.899341', '2010-05-17 00:56:07.896963', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:56:07.910029', 2, '2010-05-16 18:56:07.910029', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:56:07.919054', 3, '2010-05-16 18:56:07.919054', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.3ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:56:07.924858', 5, '2010-05-16 18:56:07.924858', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:56:07.933183', '2010-05-16 18:56:07.933183', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:56:07.942122', '2010-05-16 18:56:07.942122', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:56:07.947587', '2010-05-16 18:56:07.947587', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:56:07.969130', 2, 1, '2010-05-16 18:56:07.969130', '2010-05-16 22:56:07.962002', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.2ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:56:07.977322', 3, 2, '2010-05-16 18:56:07.977322', '2010-05-16 23:56:07.974194', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.3ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:56:07.982490', 5, 1, '2010-05-16 18:56:07.982490', '2010-05-17 00:56:07.979190', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.4ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:56:07.988564', '2010-05-16 18:56:07.988564', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:56:07.995729', '2010-05-16 18:56:07.995729', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:58:28.337328', '2010-05-16 18:58:28.337328', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:58:28.350455', '2010-05-16 18:58:28.350455', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:58:28.353074', 100.0, '2010-05-16 18:58:28.361021', '2010-05-16 18:58:28.361021', '2010-05-16 23:58:28.353076', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:58:28.366535', 1000.0, '2010-05-16 18:58:28.368870', '2010-05-16 18:58:28.368870', '2010-05-17 01:58:28.366546', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:58:28.370634', 1000.0, '2010-05-16 18:58:28.372629', '2010-05-16 18:58:28.372629', '2010-05-16 23:58:28.370636', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:58:28.374186', 1000.0, '2010-05-16 18:58:28.376329', '2010-05-16 18:58:28.376329', '2010-05-17 00:58:28.374194', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:58:28.387118', 2, '2010-05-16 18:58:28.387118', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:58:28.397101', 3, '2010-05-16 18:58:28.397101', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:58:28.401819', 5, '2010-05-16 18:58:28.401819', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:58:28.409975', '2010-05-16 18:58:28.409975', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:58:28.419871', '2010-05-16 18:58:28.419871', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:58:28.425681', '2010-05-16 18:58:28.425681', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 1', E'pr1_addr', 50.0, '2010-05-16 18:58:28.433403', '2010-05-16 18:58:28.433403') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 2', E'pr2_addr', 50.0, '2010-05-16 18:58:28.439734', '2010-05-16 18:58:28.439734') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.4ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:58:28.450352', 2, 1, '2010-05-16 18:58:28.450352', '2010-05-16 22:58:28.443000', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.3ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:58:28.459343', 3, 2, '2010-05-16 18:58:28.459343', '2010-05-16 23:58:28.455828', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:58:28.464254', 5, 1, '2010-05-16 18:58:28.464254', '2010-05-17 00:58:28.461135', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:58:28.470936', '2010-05-16 18:58:28.470936', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.4ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:58:28.479052', '2010-05-16 18:58:28.479052', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:59:24.205794', '2010-05-16 18:59:24.205794', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:59:24.219193', '2010-05-16 18:59:24.219193', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:24.222295', 100.0, '2010-05-16 18:59:24.231455', '2010-05-16 18:59:24.231455', '2010-05-16 23:59:24.222297', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:59:24.237138', 1000.0, '2010-05-16 18:59:24.239356', '2010-05-16 18:59:24.239356', '2010-05-17 01:59:24.237150', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:24.241470', 1000.0, '2010-05-16 18:59:24.243562', '2010-05-16 18:59:24.243562', '2010-05-16 23:59:24.241472', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:59:24.245151', 1000.0, '2010-05-16 18:59:24.247390', '2010-05-16 18:59:24.247390', '2010-05-17 00:59:24.245159', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:24.258282', 2, '2010-05-16 18:59:24.258282', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:24.267469', 3, '2010-05-16 18:59:24.267469', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:59:24.272365', 5, '2010-05-16 18:59:24.272365', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:59:24.280363', '2010-05-16 18:59:24.280363', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:59:24.289800', '2010-05-16 18:59:24.289800', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:59:24.294906', '2010-05-16 18:59:24.294906', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 1', E'pr1_addr', 100.0, '2010-05-16 18:59:24.302449', '2010-05-16 18:59:24.302449') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 2', E'pr2_addr', 50.0, '2010-05-16 18:59:24.308466', '2010-05-16 18:59:24.308466') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.4ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:59:24.319659', 2, 1, '2010-05-16 18:59:24.319659', '2010-05-16 22:59:24.312195', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.3ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:59:24.328520', 3, 2, '2010-05-16 18:59:24.328520', '2010-05-16 23:59:24.324947', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:59:24.333907', 5, 1, '2010-05-16 18:59:24.333907', '2010-05-17 00:59:24.330680', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.5ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:59:24.341414', '2010-05-16 18:59:24.341414', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:59:24.348830', '2010-05-16 18:59:24.348830', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:59:46.128144', '2010-05-16 18:59:46.128144', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:59:46.141732', '2010-05-16 18:59:46.141732', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:46.144549', 100.0, '2010-05-16 18:59:46.153882', '2010-05-16 18:59:46.153882', '2010-05-16 23:59:46.144551', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:59:46.159224', 1000.0, '2010-05-16 18:59:46.161421', '2010-05-16 18:59:46.161421', '2010-05-17 01:59:46.159234', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:46.163366', 1000.0, '2010-05-16 18:59:46.165454', '2010-05-16 18:59:46.165454', '2010-05-16 23:59:46.163368', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:59:46.167066', 1000.0, '2010-05-16 18:59:46.169578', '2010-05-16 18:59:46.169578', '2010-05-17 00:59:46.167074', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.9ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:46.180785', 2, '2010-05-16 18:59:46.180785', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:46.190088', 3, '2010-05-16 18:59:46.190088', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:59:46.195002', 5, '2010-05-16 18:59:46.195002', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:59:46.202828', '2010-05-16 18:59:46.202828', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:59:46.212286', '2010-05-16 18:59:46.212286', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:59:46.217483', '2010-05-16 18:59:46.217483', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 1', E'pr1_addr', 100.0, '2010-05-16 18:59:46.224905', '2010-05-16 18:59:46.224905') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 2', E'pr2_addr', 50.0, '2010-05-16 18:59:46.231006', '2010-05-16 18:59:46.231006') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.4ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:59:46.240902', 2, 1, '2010-05-16 18:59:46.240902', '2010-05-16 22:59:46.233873', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.2ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:59:46.250262', 3, 2, '2010-05-16 18:59:46.250262', '2010-05-16 23:59:46.246298', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.3ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:59:46.255408', 5, 1, '2010-05-16 18:59:46.255408', '2010-05-17 00:59:46.252270', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:59:46.261304', '2010-05-16 18:59:46.261304', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.4ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:59:46.268833', '2010-05-16 18:59:46.268833', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 18:59:55.660234', '2010-05-16 18:59:55.660234', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 18:59:55.674255', '2010-05-16 18:59:55.674255', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:55.677850', 100.0, '2010-05-16 18:59:55.686267', '2010-05-16 18:59:55.686267', '2010-05-16 23:59:55.677852', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:59:55.692066', 1000.0, '2010-05-16 18:59:55.694477', '2010-05-16 18:59:55.694477', '2010-05-17 01:59:55.692077', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 22:59:55.696336', 1000.0, '2010-05-16 18:59:55.698392', '2010-05-16 18:59:55.698392', '2010-05-16 23:59:55.696338', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-16 23:59:55.699926', 1000.0, '2010-05-16 18:59:55.702222', '2010-05-16 18:59:55.702222', '2010-05-17 00:59:55.699934', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:55.712639', 2, '2010-05-16 18:59:55.712639', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 18:59:55.721786', 3, '2010-05-16 18:59:55.721786', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 18:59:55.727173', 5, '2010-05-16 18:59:55.727173', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 18:59:55.734857', '2010-05-16 18:59:55.734857', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 18:59:55.743900', '2010-05-16 18:59:55.743900', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 18:59:55.748882', '2010-05-16 18:59:55.748882', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 1', E'pr1_addr', 100.0, '2010-05-16 18:59:55.757056', '2010-05-16 18:59:55.757056') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 2', E'pr2_addr', 50.0, '2010-05-16 18:59:55.763178', '2010-05-16 18:59:55.763178') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.4ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.4ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 18:59:55.773703', 2, 1, '2010-05-16 18:59:55.773703', '2010-05-16 22:59:55.766119', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.3ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 18:59:55.783187', 3, 2, '2010-05-16 18:59:55.783187', '2010-05-16 23:59:55.779348', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.2ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 18:59:55.788224', 5, 1, '2010-05-16 18:59:55.788224', '2010-05-17 00:59:55.785067', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 18:59:55.794470', '2010-05-16 18:59:55.794470', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.3ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 18:59:55.801338', '2010-05-16 18:59:55.801338', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue1') LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue1', '2010-05-16 20:36:25.315015', '2010-05-16 20:36:25.315015', E'cinfo1') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Exists (0.4ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue2') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'Catalogue2', '2010-05-16 20:36:25.330254', '2010-05-16 20:36:25.330254', E'cinfo2') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.4ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:36:25.333125', 100.0, '2010-05-16 20:36:25.340541', '2010-05-16 20:36:25.340541', '2010-05-17 01:36:25.333127', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 02:36:25.348097', 1000.0, '2010-05-16 20:36:25.352009', '2010-05-16 20:36:25.352009', '2010-05-17 03:36:25.348108', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.3ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 00:36:25.353886', 1000.0, '2010-05-16 20:36:25.356152', '2010-05-16 20:36:25.356152', '2010-05-17 01:36:25.353888', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-05-17 01:36:25.357989', 1000.0, '2010-05-16 20:36:25.360643', '2010-05-16 20:36:25.360643', '2010-05-17 02:36:25.357998', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 20:36:25.372658', 2, '2010-05-16 20:36:25.372658', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (0.3ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-16 20:36:25.385678', 3, '2010-05-16 20:36:25.385678', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mStorage Load (1.7ms)[0m   [0;1mSELECT * FROM "storages" WHERE ("storages"."id" = 2) [0m
+  [4;35;1mItem Load (0.2ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mItemStorage Exists (0.2ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(2, '2010-05-16 20:36:25.394361', 5, '2010-05-16 20:36:25.394361', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.4ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 1', '2010-05-16 20:36:25.407903', '2010-05-16 20:36:25.407903', 100.0, 15.0, 200.0, 10.0, 1, E'--- 
+prms1_xzxz: lol
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (1.9ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 2 каталог 1', '2010-05-16 20:36:25.420130', '2010-05-16 20:36:25.420130', 10.0, 150.0, 20.0, 1.0, 1, E'--- 
+prms2_xzxz: lol1
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mCatalogue Load (0.3ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 2) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'Товар 1 каталог 2', '2010-05-16 20:36:25.426283', '2010-05-16 20:36:25.426283', 20.0, 1.0, 20.0, 10.0, 2, E'--- 
+prms3_xzxz: lol2
+') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 1', E'pr1_addr', 100.0, '2010-05-16 20:36:25.434258', '2010-05-16 20:36:25.434258') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'provider 2', E'pr2_addr', 50.0, '2010-05-16 20:36:25.440570', '2010-05-16 20:36:25.440570') RETURNING "id"[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (0.3ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(150.0, '2010-05-16 20:36:25.451235', 2, 1, '2010-05-16 20:36:25.451235', '2010-05-17 00:36:25.444018', E'per1_i1_ping1', 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mProvider Load (0.3ms)[0m   [0mSELECT * FROM "providers" WHERE ("providers"."id" = 2) [0m
+  [4;36;1mItem Load (0.2ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(1500.0, '2010-05-16 20:36:25.463177', 3, 2, '2010-05-16 20:36:25.463177', '2010-05-17 01:36:25.459411', E'per2_i1_ping2', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mProvider Load (3.1ms)[0m   [0;1mSELECT * FROM "providers" WHERE ("providers"."id" = 1) [0m
+  [4;35;1mItem Load (0.3ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "providings" ("price", "created_at", "quantity", "provider_id", "updated_at", "providing_date", "contract", "item_id") VALUES(15.0, '2010-05-16 20:36:25.491119', 5, 1, '2010-05-16 20:36:25.491119', '2010-05-17 02:36:25.465267', E'per1_i2_ping3', 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.4ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 1') LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 1', '2010-05-16 20:36:25.510436', '2010-05-16 20:36:25.510436', E'storage 1 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mStorage Exists (0.4ms)[0m   [0mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'storage 2') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'storage 2', '2010-05-16 20:36:25.517918', '2010-05-16 20:36:25.517918', E'storage 2 info') RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m

@@ -1,0 +1,26 @@
+<% form_tag({:action => :edit_commit}, {:name => 'storages_form'}) do %>
+<%= hidden_field_tag('storage[id]', @item.id)  %>
+<table class = "edit">
+  <caption>Редактирование каталога</caption>
+  <thead>
+    <tr>
+      <th colspan = "2">
+        <%= submit_tag('Изменить')  %>
+        <%= button_to_function('Отмена',
+          "document.storages_form.action = '#{url_for(:action => :list)}';
+           document.storages_form.submit();")  %>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Название каталога:</th>
+      <td><%= text_field_tag('storage[name]', @item.name, :size => 20)  %></td>
+    </tr>
+    <tr>
+      <th>Описание каталога:</th>
+      <td><%= text_field_tag('storage[info]', @item.info, :size => 20)  %></td>
+    </tr>
+  </tbody>
+</table>
+<% end %>

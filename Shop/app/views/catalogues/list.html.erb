@@ -1,0 +1,25 @@
+<TABLE class = "list">
+  <CAPTION>Каталоги</CAPTION>
+  <% if @items.size == 0 %>
+    <%=  empty_list() %>
+  <% else %>
+    <THEAD>
+      <TR>
+        <TH>Название</TH>
+        <TH>Описание</TH>
+        <% if @inline_actions.size > 0  %>
+        <TH>Действия</TH>
+        <% end %>
+      </TR>
+    </THEAD>
+    <TBODY>
+      <% @items.each do |s| %>
+      <TR>
+        <TD><%= s.name %></TD>
+        <TD><%= s.info %></TD>
+        <%= inline_menu(s) %>
+      </TR>
+      <% end %>
+    </TBODY>
+  <% end %>
+</TABLE>
