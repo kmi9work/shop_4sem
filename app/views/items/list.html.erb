@@ -1,0 +1,33 @@
+<% form_tag({:action => :list}, {:name => 'items_form'}) do %>
+<TABLE class = "list">
+  <CAPTION>
+    Каталог товаров:
+    <%= catalogues_list(params['catalogue_id'], 'catalogue_id',
+      'javascript:document.items_form.submit();') %>
+  </CAPTION>
+  <% if @items.size == 0 %>
+    <%=  empty_list() %>
+  <% else %>
+    <THEAD>
+      <TR>
+        <TH>Название</TH>
+        <TH>Размеры</TH>
+        <TH>Вес</TH>
+        <% if @inline_actions.size > 0  %>
+        <TH>Действия</TH>
+        <% end %>
+      </TR>
+    </THEAD>
+    <TBODY>
+      <% @items.each do |i| %>
+      <TR>
+        <TD><%= i.name %></TD>
+        <TD><%= i.size_x %> X <%= i.size_y %> X <%= i.size_z %></TD>
+        <TD><%= i.weight %></TD>
+        <%= inline_menu(i) %>
+      </TR>
+      <% end %>
+    </TBODY>
+  <% end %>
+</TABLE>
+<% end %>

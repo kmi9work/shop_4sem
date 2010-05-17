@@ -1,0 +1,40 @@
+<% form_tag({:action => :create_commit}, {:name => 'providings_form'}) do %>
+<%= hidden_field_tag('providing[item_id]', params[:id])  %>
+<table class = "edit">
+  <caption>
+    Добавление информации о новой поставке товара &quot;<%= @item.name %>&quot;
+  </caption>
+  <thead>
+    <tr>
+      <th colspan = "2">
+        <%= submit_tag('Создать')  %>
+        <%= button_to_function('Отмена',
+          "document.providings_form.action = '#{url_for(:action => :list)}';
+           document.providings_form.submit();")  %>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Поставщик:</th>
+      <td><%= provider_select('providing[provider_id]', '')  %></td>
+    </tr>
+    <tr>
+      <th>Цена:</th>
+      <td><%= text_field_tag('providing[price]', '', :size => 10)  %></td>
+    </tr>
+    <tr>
+      <th>Количество:</th>
+      <td><%= text_field_tag('providing[quantity]', '', :size => 5)  %></td>
+    </tr>
+    <tr>
+      <th>Дата поставки:</th>
+      <td><%= text_field_tag('providing[providing_date]', '', :size => 10)  %></td>
+    </tr>
+    <tr>
+      <th>Контракт:</th>
+      <td><%= text_field_tag('providing[contract]', '', :size => 20)  %></td>
+    </tr>
+  </tbody>
+</table>
+<% end %>

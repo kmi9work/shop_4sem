@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>Научно-исследовательская работа</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <%= stylesheet_link_tag('operator_styles') %>
+    <%= javascript_include_tag('operator_scripts') %>
+    <%= javascript_include_tag('prototype') %>
+  </HEAD>
+  <BODY>
+    <TABLE>
+      <THEAD>
+        <TR>
+          <TH class = "menu" colspan = "2">
+            Интернет-магазин (режим оператора)
+          </TH>
+        </TR>
+      </THEAD>
+      <TBODY>
+        <% unless @errors.empty? %>
+        <TR>
+          <TD class = "error" colspan = "2">
+            <%= display_error() %>
+          </TD>
+        </TR>
+        <% end %>
+        <TR>
+          <TD class = "menu">
+            <%= create_menu(user_class())  %>
+          </TD>
+          <TD class = "data">
+            <%= @content_for_layout %>
+          </TD>
+        </TR>
+      </TBODY>
+      <TFOOT>
+        <TR>
+          <TD class = "foot" colspan = "2">
+            ИВЦ ГОУ МГИУ 2009
+          </TD>
+        </TR>
+      </TFOOT>
+    </TABLE>
+  </BODY>
+</HTML>
