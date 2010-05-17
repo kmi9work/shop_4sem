@@ -2420,3 +2420,1263 @@ Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 00:42:36) [GET]
 Rendering template within layouts/operator_layout
 Rendering providers/list
 Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (9.9ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:17:26) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;36;1mItem Load (2.2ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 164ms (View: 29, DB: 14) | 200 OK [http://localhost/operator]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:17:35) [GET]
+  [4;36;1mCatalogue Load (1.7ms)[0m   [0;1mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create (for 127.0.0.1 at 2010-05-17 22:17:36) [GET]
+Rendering template within layouts/operator_layout
+Rendering catalogues/create
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/catalogues/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:17:38) [GET]
+  [4;35;1mCatalogue Load (1.6ms)[0m   [0mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:17:40) [GET]
+  [4;36;1mStorage Load (40.3ms)[0m   [0;1mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 63ms (View: 17, DB: 41) | 200 OK [http://localhost/storages/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 22:17:43) [GET]
+  [4;35;1mProvider Load (2.5ms)[0m   [0mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 72ms (View: 64, DB: 3) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:17:45) [GET]
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.3ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:17:48) [GET]
+  [4;36;1mCatalogue Load (1.6ms)[0m   [0;1mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create (for 127.0.0.1 at 2010-05-17 22:17:50) [GET]
+Rendering template within layouts/operator_layout
+Rendering catalogues/create
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/catalogues/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:17:51) [GET]
+  [4;35;1mStorage Load (1.6ms)[0m   [0mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-17 22:19:03) [GET]
+
+NameError (uninitialized constant OperatorController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (12.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-17 22:19:33) [GET]
+
+NameError (uninitialized constant CatalogueController):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#index (for 127.0.0.1 at 2010-05-17 22:20:20) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: actions_filter, create, create_commit, destroy, edit, edit_commit, errors_validator_start, list, needs_to_validate, set_user, and user_class):
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:21:08) [GET]
+  Parameters: {"user_name"=>"anonimus"}
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.6ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:21:11) [GET]
+  Parameters: {"user_name"=>"anonimus"}
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.3ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/anonimus]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:22:01) [GET]
+  Parameters: {"user_name"=>"anonimus"}
+  [4;36;1mItem Load (1.8ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.4ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/anonimus]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:22:04) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.4ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 25ms (View: 15, DB: 4) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:22:06) [GET]
+  [4;36;1mCatalogue Load (1.7ms)[0m   [0;1mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create (for 127.0.0.1 at 2010-05-17 22:22:07) [GET]
+Rendering template within layouts/operator_layout
+Rendering catalogues/create
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/catalogues/create]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create_commit (for 127.0.0.1 at 2010-05-17 22:22:18) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "catalogue"=>{"name"=>"abc", "info"=>"llla"}, "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U="}
+  [4;35;1mSQL (7.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Exists (80.0ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc') LIMIT 1[0m
+  [4;35;1mSQL (333.0ms)[0m   [0mINSERT INTO "catalogues" ("name", "created_at", "updated_at", "info") VALUES(E'abc', '2010-05-17 18:22:18.899765', '2010-05-17 18:22:18.899765', E'llla') RETURNING "id"[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/catalogues/list?user_name=operator
+Completed in 1296ms (DB: 425) | 302 Found [http://localhost/catalogues/create_commit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:22:19) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;35;1mCatalogue Load (1.7ms)[0m   [0mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 70ms (View: 63, DB: 2) | 200 OK [http://localhost/catalogues/list?user_name=operator]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:22:22) [GET]
+  [4;36;1mStorage Load (1.6ms)[0m   [0;1mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:22:24) [GET]
+  [4;35;1mCatalogue Load (1.6ms)[0m   [0mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create (for 127.0.0.1 at 2010-05-17 22:22:25) [GET]
+Rendering template within layouts/operator_layout
+Rendering catalogues/create
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/catalogues/create]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:22:26) [GET]
+  [4;36;1mStorage Load (1.6ms)[0m   [0;1mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 18ms (View: 11, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 22:22:28) [GET]
+  [4;35;1mProvider Load (1.5ms)[0m   [0mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 18ms (View: 11, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:22:29) [GET]
+  [4;36;1mItem Load (1.6ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.3ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 30ms (View: 20, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 22:22:36) [GET]
+  [4;36;1mProvider Load (1.9ms)[0m   [0;1mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 19ms (View: 11, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 22:22:39) [GET]
+  [4;35;1mCatalogue Load (1.6ms)[0m   [0mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 23ms (View: 16, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:22:41) [GET]
+  [4;36;1mStorage Load (1.8ms)[0m   [0;1mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 23ms (View: 15, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#create (for 127.0.0.1 at 2010-05-17 22:22:42) [GET]
+Rendering template within layouts/operator_layout
+Rendering storages/create
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/storages/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#create_commit (for 127.0.0.1 at 2010-05-17 22:22:55) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "storage"=>{"name"=>"lol_sklad", "info"=>"info"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStorage Exists (30.5ms)[0m   [0;1mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'lol_sklad') LIMIT 1[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mINSERT INTO "storages" ("name", "created_at", "updated_at", "info") VALUES(E'lol_sklad', '2010-05-17 18:22:55.524004', '2010-05-17 18:22:55.524004', E'info') RETURNING "id"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/storages/list?user_name=operator
+Completed in 52ms (DB: 33) | 302 Found [http://localhost/storages/create_commit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 22:22:55) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;35;1mStorage Load (1.6ms)[0m   [0mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/storages/list?user_name=operator]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 22:22:57) [GET]
+  [4;36;1mProvider Load (1.6ms)[0m   [0;1mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 65ms (View: 12, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#create (for 127.0.0.1 at 2010-05-17 22:22:58) [GET]
+Rendering template within layouts/operator_layout
+Rendering providers/create
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/providers/create]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#create_commit (for 127.0.0.1 at 2010-05-17 22:23:14) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "provider"=>{"ratio"=>"60", "address"=>"lol street", "name"=>"xz"}}
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (80.7ms)[0m   [0;1mINSERT INTO "providers" ("name", "address", "ratio", "created_at", "updated_at") VALUES(E'xz', E'lol street', 60.0, '2010-05-17 18:23:14.936718', '2010-05-17 18:23:14.936718') RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/providers/list?user_name=operator
+Completed in 100ms (DB: 82) | 302 Found [http://localhost/providers/create_commit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 22:23:15) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;36;1mProvider Load (2.7ms)[0m   [0;1mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 24ms (View: 16, DB: 3) | 200 OK [http://localhost/providers/list?user_name=operator]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:23:19) [GET]
+  [4;35;1mItem Load (1.6ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (1.3ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 81ms (View: 71, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-05-17 22:23:21) [GET]
+Rendering template within layouts/operator_layout
+Rendering items/create
+  [4;35;1mCatalogue Load (2.2ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Rendered items/_attribute_row (0.8ms)
+Rendered items/_add_attribute_button (1.2ms)
+Rendered item_periods/_create_button (1.0ms)
+Rendered item_periods/_editable_list (4.4ms)
+Rendered item_storages/_create_button (1.6ms)
+Rendered item_storages/_editable_list (4.9ms)
+Completed in 51ms (View: 47, DB: 3) | 200 OK [http://localhost/items/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemPeriodsController#create (for 127.0.0.1 at 2010-05-17 22:23:38) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+Rendered item_periods/_create (1.1ms)
+Rendered item_periods/_create_button (0.4ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/item_periods/create?create_index=0]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemPeriodsController#create (for 127.0.0.1 at 2010-05-17 22:23:43) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"1", "_"=>""}
+Rendered item_periods/_create (0.3ms)
+Rendered item_periods/_create_button (0.4ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/item_periods/create?create_index=1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemStoragesController#create (for 127.0.0.1 at 2010-05-17 22:23:47) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+  [4;36;1mStorage Load (3.1ms)[0m   [0;1mSELECT * FROM "storages" ORDER BY name[0m
+Rendered item_storages/_create (16.0ms)
+Rendered item_storages/_create_button (0.6ms)
+Completed in 26ms (View: 20, DB: 3) | 200 OK [http://localhost/item_storages/create?create_index=0]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#create_commit (for 127.0.0.1 at 2010-05-17 22:23:55) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "item_period"=>{"price"=>{"0"=>"4114", "1"=>""}, "start_date"=>{"0"=>"12", "1"=>""}, "end_date"=>{"0"=>"32", "1"=>""}}, "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "item_storage"=>{"storage_id"=>{"0"=>"1"}, "quantity"=>{"0"=>"111"}}, "item"=>{"name"=>"lol", "weight"=>"11", "size_x"=>"12", "size_y"=>"24", "size_z"=>"43", "catalogue_id"=>"1"}, "prms"=>{"value"=>{"0"=>"42"}, "key"=>{"0"=>"14"}}}
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.7ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mSQL (48.6ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'lol', '2010-05-17 18:23:55.545621', '2010-05-17 18:23:55.545621', 12.0, 11.0, 24.0, 43.0, 1, E'--- 
+"14": "42"
+') RETURNING "id"[0m
+  [4;35;1mCatalogue Exists (0.4ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItemStorage Load (2.5ms)[0m   [0;1mSELECT * FROM "item_storages" WHERE (storage_id = E'1' AND item_id = 1) LIMIT 1[0m
+  [4;35;1mStorage Load (0.5ms)[0m   [0mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;36;1mStorage Exists (0.3ms)[0m   [0;1mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'lol_sklad' AND "storages".id <> 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItemStorage Exists (0.3ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 1 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-17 18:23:55.652817', 111, '2010-05-17 18:23:55.652817', 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+Redirected to http://localhost:3000/operator
+Completed in 143ms (DB: 56) | 302 Found [http://localhost/items/create_commit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:23:55) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;35;1mItem Load (1.8ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (2.2ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 47ms (View: 30, DB: 4) | 200 OK [http://localhost/operator]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemPeriodsController#create (for 127.0.0.1 at 2010-05-17 22:26:53) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+Rendered item_periods/_create (0.3ms)
+Rendered item_periods/_create_button (0.4ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/item_periods/create?create_index=0]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemStoragesController#create (for 127.0.0.1 at 2010-05-17 22:27:17) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+  [4;35;1mStorage Load (2.3ms)[0m   [0mSELECT * FROM "storages" ORDER BY name[0m
+Rendered item_storages/_create (10.8ms)
+Rendered item_storages/_create_button (0.4ms)
+Completed in 15ms (View: 11, DB: 3) | 200 OK [http://localhost/item_storages/create?create_index=0]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#create_commit (for 127.0.0.1 at 2010-05-17 22:27:20) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "item_period"=>{"price"=>{"0"=>"4114"}, "start_date"=>{"0"=>"12.01.2010"}, "end_date"=>{"0"=>"31.03.2010"}}, "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "item_storage"=>{"storage_id"=>{"0"=>"1"}, "quantity"=>{"0"=>"111"}}, "item"=>{"name"=>"lol", "weight"=>"11", "size_x"=>"12", "size_y"=>"24", "size_z"=>"43", "catalogue_id"=>"1"}, "prms"=>{"value"=>{"0"=>"42"}, "key"=>{"0"=>"14"}}}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mCatalogue Load (1.0ms)[0m   [0mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;36;1mCatalogue Exists (0.6ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'lol', '2010-05-17 18:27:20.824196', '2010-05-17 18:27:20.824196', 12.0, 11.0, 24.0, 43.0, 1, E'--- 
+"14": "42"
+') RETURNING "id"[0m
+  [4;36;1mCatalogue Exists (0.3ms)[0m   [0;1mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;35;1mSQL (49.1ms)[0m   [0mINSERT INTO "item_periods" ("start_date", "price", "created_at", "updated_at", "end_date", "item_id") VALUES('2010-01-12', 4114.0, '2010-05-17 18:27:20.838171', '2010-05-17 18:27:20.838171', '2010-03-31', 2) RETURNING "id"[0m
+  [4;36;1mItemStorage Load (0.6ms)[0m   [0;1mSELECT * FROM "item_storages" WHERE (storage_id = E'1' AND item_id = 2) LIMIT 1[0m
+  [4;35;1mStorage Load (0.4ms)[0m   [0mSELECT * FROM "storages" WHERE ("storages"."id" = 1) [0m
+  [4;36;1mStorage Exists (0.5ms)[0m   [0;1mSELECT "storages".id FROM "storages" WHERE ("storages"."name" = E'lol_sklad' AND "storages".id <> 1) LIMIT 1[0m
+  [4;35;1mCatalogue Exists (0.4ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'abc' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItemStorage Exists (0.4ms)[0m   [0;1mSELECT "item_storages".id FROM "item_storages" WHERE ("item_storages"."item_id" = 2 AND "item_storages".storage_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "item_storages" ("storage_id", "created_at", "quantity", "updated_at", "item_id") VALUES(1, '2010-05-17 18:27:20.909134', 111, '2010-05-17 18:27:20.909134', 2) RETURNING "id"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/operator?catalogue_id=1
+Completed in 122ms (DB: 56) | 302 Found [http://localhost/items/create_commit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 22:27:20) [GET]
+  Parameters: {"user_name"=>"operator", "catalogue_id"=>"1"}
+  [4;35;1mItem Load (2.1ms)[0m   [0mSELECT * FROM "items" WHERE (catalogue_id = E'1') [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (1.1ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 32ms (View: 22, DB: 3) | 200 OK [http://localhost/operator?catalogue_id=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 22:27:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mItem Load (0.6ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mSQL (21.1ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;36;1mItemPeriod Load (0.4ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 2) [0m
+  [4;36;1mItemStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "item_storages" WHERE ("item_storages".item_id = 2) [0m
+Completed in 128ms (View: 92, DB: 24) | 200 OK [http://localhost/items/show/2]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:27:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mItem Load (0.6ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Item with ID=2):
+  app/controllers/items_controller.rb:164:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:34:13) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Item with ID=2):
+  app/controllers/items_controller.rb:164:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (92.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:34:16) [GET]
+
+ActiveRecord::RecordNotFound (Couldn't find Item without an ID):
+  app/controllers/items_controller.rb:164:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:34:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mItem Load (0.6ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Item with ID=1):
+  app/controllers/items_controller.rb:164:in `show'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (89.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:34:21) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.3ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 33ms (View: 22, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 23:34:25) [GET]
+  [4;36;1mProvider Load (1.6ms)[0m   [0;1mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 23:34:26) [GET]
+  [4;35;1mStorage Load (1.7ms)[0m   [0mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 23ms (View: 16, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 23:34:27) [GET]
+  [4;36;1mCatalogue Load (2.1ms)[0m   [0;1mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 28ms (View: 17, DB: 3) | 200 OK [http://localhost/catalogues/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 23:34:29) [GET]
+  [4;35;1mProvider Load (1.6ms)[0m   [0mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:34:30) [GET]
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 33ms (View: 23, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 23:35:38) [GET]
+  [4;36;1mCatalogue Load (1.8ms)[0m   [0;1mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 23ms (View: 16, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 23:36:04) [GET]
+  [4;35;1mStorage Load (1.7ms)[0m   [0mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 23ms (View: 15, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 23:36:07) [GET]
+  [4;36;1mProvider Load (1.6ms)[0m   [0;1mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 23ms (View: 16, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:36:07) [GET]
+  [4;35;1mItem Load (1.8ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (1.3ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 32ms (View: 22, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#list (for 127.0.0.1 at 2010-05-17 23:36:09) [GET]
+  [4;35;1mCatalogue Load (1.6ms)[0m   [0mSELECT * FROM "catalogues" [0m
+Rendering template within layouts/operator_layout
+Rendering catalogues/list
+Completed in 25ms (View: 18, DB: 2) | 200 OK [http://localhost/catalogues/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing CataloguesController#create (for 127.0.0.1 at 2010-05-17 23:36:19) [GET]
+Rendering template within layouts/operator_layout
+Rendering catalogues/create
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/catalogues/create]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing StoragesController#list (for 127.0.0.1 at 2010-05-17 23:36:21) [GET]
+  [4;36;1mStorage Load (1.7ms)[0m   [0;1mSELECT * FROM "storages" [0m
+Rendering template within layouts/operator_layout
+Rendering storages/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/storages/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 23:36:24) [GET]
+  [4;35;1mProvider Load (1.7ms)[0m   [0mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 22ms (View: 15, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:36:26) [GET]
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (2.0ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 35ms (View: 24, DB: 4) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:36:29) [GET]
+  Parameters: {"id"=>"996332877"}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 996332877) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:37:21) [GET]
+  [4;35;1mItem Load (1.8ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (1.3ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 34ms (View: 23, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:37:22) [GET]
+  Parameters: {"id"=>"996332877"}
+  [4;35;1mItem Load (0.8ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 996332877) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:38:24) [GET]
+  Parameters: {"id"=>"996332877"}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 996332877) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:38:29) [GET]
+  Parameters: {"id"=>"953125641"}
+  [4;35;1mItem Load (0.6ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 953125641) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:38:56) [GET]
+  [4;36;1mItem Load (1.9ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 34ms (View: 22, DB: 4) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:38:58) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:39:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mItem Load (0.7ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:39:47) [GET]
+  [4;36;1mItem Load (1.7ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 34ms (View: 24, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:40:08) [GET]
+  [4;36;1mItem Load (1.8ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 91ms (View: 80, DB: 4) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:40:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (prms was supposed to be a Hash, but was a String) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:40:14) [GET]
+  [4;35;1mItem Load (1.9ms)[0m   [0mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (1.5ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 87ms (View: 24, DB: 4) | 200 OK [http://localhost/items/list]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#list (for 127.0.0.1 at 2010-05-17 23:40:16) [GET]
+  [4;35;1mProvider Load (1.6ms)[0m   [0mSELECT * FROM "providers" [0m
+Rendering template within layouts/operator_layout
+Rendering providers/list
+Completed in 24ms (View: 16, DB: 2) | 200 OK [http://localhost/providers/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ProvidersController#create (for 127.0.0.1 at 2010-05-17 23:40:17) [GET]
+Rendering template within layouts/operator_layout
+Rendering providers/create
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/providers/create]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:40:19) [GET]
+  [4;36;1mItem Load (1.6ms)[0m   [0;1mSELECT * FROM "items" [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.3ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 33ms (View: 23, DB: 3) | 200 OK [http://localhost/items/list]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#show (for 127.0.0.1 at 2010-05-17 23:40:20) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/show
+
+ActionView::TemplateError (prms was supposed to be a Hash, but was a String) on line #32 of app/views/items/show.html.erb:
+29:       <th>Вес товара:</th>
+30:       <td><%= @item.weight %> кг</td>
+31:     </tr>
+32:     <% @item.prms.each do |k, v| %>
+33:     <tr>
+34:       <th><%= k %></th>
+35:       <td><%= v %></td>
+
+    app/views/items/show.html.erb:32
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#edit (for 127.0.0.1 at 2010-05-17 23:45:36) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mItem Load (0.7ms)[0m   [0mSELECT * FROM "items" WHERE ("items"."id" = 2) [0m
+Rendering template within layouts/operator_layout
+Rendering items/edit
+  [4;36;1mCatalogue Load (1.1ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+
+ActionView::TemplateError (prms was supposed to be a Hash, but was a String) on line #48 of app/views/items/edit.html.erb:
+45:           </thead>
+46:           <tbody>
+47:             <% i = 0 %>
+48:             <% @item.prms.each do |k, v| %>
+49:              <%= render(:partial => 'attribute_row',
+50:                         :locals => {:id_num => i.to_s,
+51:                                     :key => k,
+
+    app/views/items/edit.html.erb:48
+    app/views/items/edit.html.erb:1
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#create (for 127.0.0.1 at 2010-05-17 23:45:42) [GET]
+Rendering template within layouts/operator_layout
+Rendering items/create
+  [4;35;1mCatalogue Load (2.5ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Rendered items/_attribute_row (0.3ms)
+Rendered items/_add_attribute_button (0.3ms)
+Rendered item_periods/_create_button (0.3ms)
+Rendered item_periods/_editable_list (0.6ms)
+Rendered item_storages/_create_button (0.3ms)
+Rendered item_storages/_editable_list (0.6ms)
+Completed in 27ms (View: 22, DB: 3) | 200 OK [http://localhost/items/create]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#add_attribute (for 127.0.0.1 at 2010-05-17 23:45:48) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "last_item"=>"0", "_"=>""}
+Rendered items/_attribute_row (0.3ms)
+Rendered items/_add_attribute_button (0.5ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/items/add_attribute?last_item=0]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemPeriodsController#create (for 127.0.0.1 at 2010-05-17 23:45:50) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+Rendered item_periods/_create (0.3ms)
+Rendered item_periods/_create_button (0.4ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/item_periods/create?create_index=0]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemStoragesController#create (for 127.0.0.1 at 2010-05-17 23:45:52) [POST]
+  Parameters: {"authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "create_index"=>"0", "_"=>""}
+  [4;36;1mStorage Load (2.3ms)[0m   [0;1mSELECT * FROM "storages" ORDER BY name[0m
+Rendered item_storages/_create (10.7ms)
+Rendered item_storages/_create_button (0.4ms)
+Completed in 15ms (View: 11, DB: 3) | 200 OK [http://localhost/item_storages/create?create_index=0]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#create_commit (for 127.0.0.1 at 2010-05-17 23:49:09) [POST]
+  Parameters: {"commit"=>"Создат\321\214", "item_period"=>{"price"=>{"0"=>""}, "start_date"=>{"0"=>""}, "end_date"=>{"0"=>""}}, "authenticity_token"=>"5FWVXzgLEbXqT2GocEBGbqaaB35uRtIm7P2zYYrKL5U=", "item_storage"=>{"storage_id"=>{"0"=>"953125641"}, "quantity"=>{"0"=>""}}, "item"=>{"name"=>"1", "weight"=>"1", "size_x"=>"1", "size_y"=>"1", "size_z"=>"1", "catalogue_id"=>"953125641"}, "prms"=>{"value"=>{"0"=>"1", "1"=>"2"}, "key"=>{"0"=>"1", "1"=>"2"}}}
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (1.0ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 953125641) [0m
+  [4;35;1mCatalogue Exists (0.6ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 953125641) LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "items" ("name", "created_at", "updated_at", "size_x", "weight", "size_y", "size_z", "catalogue_id", "prms") VALUES(E'1', '2010-05-17 19:49:10.005819', '2010-05-17 19:49:10.005819', 1.0, 1.0, 1.0, 1.0, 953125641, E'--- 
+"1": "1"
+"2": "2"
+') RETURNING "id"[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/operator?catalogue_id=953125641
+Completed in 39ms (DB: 4) | 302 Found [http://localhost/items/create_commit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-05-17 23:49:10) [GET]
+  Parameters: {"user_name"=>"operator", "catalogue_id"=>"953125641"}
+  [4;36;1mItem Load (2.2ms)[0m   [0;1mSELECT * FROM "items" WHERE (catalogue_id = E'953125641') [0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.4ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+Completed in 33ms (View: 23, DB: 4) | 200 OK [http://localhost/operator?catalogue_id=953125641]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m

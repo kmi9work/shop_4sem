@@ -1,7 +1,23 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-# one:
-#   column: value
-#
-# two:
-#   column: value
+one:
+  id: 1
+  name: Товар один
+  size_x: 10
+  size_y: 15
+  size_z: 20
+  weight: 13
+  catalogue_id: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+
+two:
+  id: 2
+  name: Товар два
+  size_x: 10
+  size_y: 15
+  size_z: 20
+  weight: 13
+  catalogue_id: 1
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

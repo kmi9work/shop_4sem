@@ -1,7 +1,15 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-# one:
-#   column: value
-#
-# two:
-#   column: value
+one:
+  quantity: 10
+  storage_id: 1
+  item_id: 1
+  created_at: <%= Time.now() %>
+  updated_at: <%= Time.now() %>
+
+two:
+  quantity: 100
+  storage_id: 2
+  item_id: 1
+  created_at: <%= Time.now() %>
+  updated_at: <%= Time.now() %>
