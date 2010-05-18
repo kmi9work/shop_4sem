@@ -6,8 +6,8 @@ class CreateItems < ActiveRecord::Migration
       t.column :size_y, :float
       t.column :size_z, :float
       t.column :weight, :float
-      t.column :prms, :text
-
+      
+      t.references :param
       t.references :catalogue
 
       t.timestamps
@@ -18,6 +18,10 @@ class CreateItems < ActiveRecord::Migration
                   ADD CONSTRAINT items_catalogue_id_fk
                   FOREIGN KEY(catalogue_id)
                   REFERENCES catalogues(id)')
+      execute('ALTER TABLE items
+                  ADD CONSTRAINT items_param_id_fk
+                  FOREIGN KEY(param_id)
+                  REFERENCES params(id)')            
     end
   end
 

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090218154326) do
+ActiveRecord::Schema.define(:version => 20100518045131) do
 
   create_table "catalogues", :force => true do |t|
     t.text     "name",       :null => false
@@ -47,6 +47,13 @@ ActiveRecord::Schema.define(:version => 20090218154326) do
     t.float    "weight"
     t.text     "prms"
     t.integer  "catalogue_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "params", :force => true do |t|
+    t.text     "key",        :null => false
+    t.text     "value",      :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

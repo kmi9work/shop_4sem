@@ -3680,3 +3680,19 @@ Completed in 33ms (View: 23, DB: 4) | 200 OK [http://localhost/operator?catalogu
   [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
   [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (33.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCatalogues (20090218133324)
+Migrating to CreateItems (20090218134250)
+Migrating to CreateItemPeriods (20090218135043)
+Migrating to CreateStorages (20090218135722)
+Migrating to CreateItemStorages (20090218140633)
+Migrating to CreateProviders (20090218153846)
+Migrating to CreateProvidings (20090218154326)
+Migrating to CreateParams (20100518045131)
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (271.2ms)[0m   [0;1mCREATE TABLE "params" ("id" serial primary key, "key" text NOT NULL, "value" text NOT NULL, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (20.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100518045131')[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m

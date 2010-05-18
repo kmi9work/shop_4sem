@@ -21,6 +21,7 @@ class Item < ActiveRecord::Base
   has_many :item_periods, :dependent => :destroy
   has_many :item_storages, :dependent => :destroy
   has_many :providings, :dependent => :destroy
+  has_many :params, :dependent => :destroy
 
   serialize :prms, Hash
 
