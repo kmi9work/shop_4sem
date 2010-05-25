@@ -1,18 +1,21 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+  id: 1
   name: Catalogue 1
   info: Info C1
   created_at: <%= Time.now%>
   updated_at: <%= Time.now%>
 
 two:
+  id: 2
   name: Catalogue 2
   info: Info C2
   created_at: <%= Time.now%>
   updated_at: <%= Time.now%>
 
 three:
+  id: 3
   name: Catalogue 3
   info: Info C3
   created_at: <%= Time.now%>

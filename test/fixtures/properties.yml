@@ -1,0 +1,37 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  key: key11
+  value: value11
+  item_id: 1
+
+two:
+  id: 2
+  key: key12
+  value: value12
+  item_id: 1
+
+three:
+  id: 3
+  key: key13
+  value: value13
+  item_id: 2
+
+four:
+  id: 4
+  key: key21
+  value: value21
+  item_id: 2
+
+five:
+  id: 5
+  key: key22
+  value: value22
+  item_id: 2
+
+six:
+  id: 6
+  key: key31
+  value: value31
+  item_id: 3

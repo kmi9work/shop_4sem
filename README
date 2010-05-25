@@ -1,3 +1,5 @@
+Организовать рейтинг популярности товаров, как среди всех товаров, так и среди товаров определенной категории. Первые три наиболее популярных товара должны ненавязчиво показываться при просмотре каталога товаров. Реализовать систему скидок: если товар находится на последнем месте (таких товаров может быть несколько), то предлагать скидку: 3%, если этот товар на последнем месте только в данной категории товаров, и 5%, если среди всех товаров. При создании заказа указывается реальная цена, скидка и цена со скидкой.
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create 
@@ -241,3 +243,6 @@ vendor
   External libraries that the application depends on. Also includes the plugins subdirectory.
   If the app has frozen rails, those gems also go here, under vendor/rails/.
   This directory is in the load path.
+  
+  
+  

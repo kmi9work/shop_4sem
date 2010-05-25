@@ -7,9 +7,9 @@ one:
   size_y: 15
   size_z: 20
   weight: 13
+  rating: 50
+  rating_cat: 4
   catalogue_id: 1
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
 
 two:
   id: 2
@@ -18,6 +18,61 @@ two:
   size_y: 15
   size_z: 20
   weight: 13
+  rating: 40
+  rating_cat: 87
   catalogue_id: 1
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
+
+three:
+  id: 3
+  name: Товар три
+  size_x: 100
+  size_y: 15
+  size_z: 20
+  weight: 13
+  rating: 10
+  rating_cat: 5
+  catalogue_id: 2
+
+four:
+  id: 4
+  name: Товар Четыре
+  size_x: 100
+  size_y: 15
+  size_z: 20
+  weight: 13
+  rating: 777
+  rating_cat: 5
+  catalogue_id: 2
+
+five:
+  id: 5
+  name: Товар пять
+  size_x: 100
+  size_y: 15
+  size_z: 20
+  weight: 13
+  rating: 13
+  rating_cat: 48
+  catalogue_id: 2
+
+six:
+  id: 6
+  name: Товар шесть
+  size_x: 100
+  size_y: 15
+  size_z: 20
+  weight: 13
+  rating: 2
+  rating_cat: 3
+  catalogue_id: 2
+
+seven:
+  id: 7
+  name: Товар семь
+  size_x: 100
+  size_y: 15
+  size_z: 20
+  weight: 13
+  rating: 10
+  rating_cat: 34
+  catalogue_id: 2

@@ -10,10 +10,10 @@ module ItemsHelper
   def catalogues_list(default = nil, name = 'item[catalogue_id]', onchange = nil)
     cs = Catalogue.find(:all, :order => 'name')
     unless onchange.nil?
-      select_tag(name, options_for_select([['', '']] + cs.map{ |c| [c.name, c.id.to_s] },
+      select_tag(name, options_for_select([['']] + cs.map{ |c| [c.name, c.id.to_s] },
           default), :onchange => onchange)
-    else
-      select_tag(name, options_for_select([['', '']] + cs.map{ |c| [c.name, c.id.to_s] },
+    else 
+      select_tag(name, options_for_select([['']] + cs.map{ |c| [c.name, c.id.to_s] },
           default))
     end
   end

@@ -45,22 +45,22 @@
           </thead>
           <tbody>
             <% i = 0 %>
-            <% @item.prms.each do |k, v| %>
+            <% @item.properties.each do |property| %>
              <%= render(:partial => 'attribute_row',
                         :locals => {:id_num => i.to_s,
-                                    :key => k,
-                                    :value => v}) %>
+                                    :key => property[:key],
+                                    :value => property[:value]}) %>
             <% i += 1 %>
             <% end %>
              <%= render(:partial => 'attribute_row',
-                        :locals => {:id_num => @item.prms.size.to_s,
+                        :locals => {:id_num => @item.properties.size.to_s,
                                     :key => '',
                                     :value => ''}) %>
           </tbody>
           <tfoot>
             <tr id = "add">
               <%= render(:partial => 'add_attribute_button',
-                         :locals => {:last_item => @item.prms.size.to_s}) %>
+                         :locals => {:last_item => @item.properties.size.to_s}) %>
             </tr>
           </tfoot>
         </table>

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100518045131) do
+ActiveRecord::Schema.define(:version => 20100520163850) do
 
   create_table "catalogues", :force => true do |t|
     t.text     "name",       :null => false
@@ -40,20 +40,23 @@ ActiveRecord::Schema.define(:version => 20100518045131) do
   add_index "item_storages", ["item_id", "storage_id"], :name => "item_storages_storage_id_item_id_u", :unique => true
 
   create_table "items", :force => true do |t|
-    t.text     "name",         :null => false
+    t.text     "name",                        :null => false
     t.float    "size_x"
     t.float    "size_y"
     t.float    "size_z"
     t.float    "weight"
-    t.text     "prms"
+    t.integer  "rating",       :default => 0
+    t.integer  "rating_cat",   :default => 0
+    t.integer  "property_id"
     t.integer  "catalogue_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "params", :force => true do |t|
-    t.text     "key",        :null => false
-    t.text     "value",      :null => false
+  create_table "properties", :force => true do |t|
+    t.text     "key"
+    t.text     "value"
+    t.integer  "item_id",    :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -75,10 +78,6 @@ ActiveRecord::Schema.define(:version => 20100518045131) do
     t.integer  "item_id",        :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "rocks", :force => true do |t|
-    t.string "rockname", :limit => 20
   end
 
   create_table "storages", :force => true do |t|

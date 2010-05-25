@@ -1,25 +1,50 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+  id: 1
   start_date: <%= Time.now%>
   end_date: <%= Time.now + 3600*5%>
   price: 100
   item_id: 1
-  created_at: <%= Time.now%>
-  updated_at: <%= Time.now%>
 
 two:
-  start_date: <%= Time.now + 3600*5%>
+  id: 2
+  start_date: <%= Time.now%>
   end_date: <%= Time.now + 3600*10%>
   price: 1000
-  item_id: 1
-  created_at: <%= Time.now%>
-  updated_at: <%= Time.now%>
+  item_id: 2
 
 three:
+  id: 3
   start_date: <%= Time.now%>
   end_date: <%= Time.now + 3600*10%>
   price: 150
-  item_id: 1
-  created_at: <%= Time.now%>
-  updated_at: <%= Time.now%>
+  item_id: 3
+
+four:
+  id: 4
+  start_date: <%= Time.now%>
+  end_date: <%= Time.now + 3600*10%>
+  price: 1500
+  item_id: 4
+
+five:
+  id: 5
+  start_date: <%= Time.now%>
+  end_date: <%= Time.now + 3600*10%>
+  price: 10
+  item_id: 5
+
+six:
+  id: 6
+  start_date: <%= Time.now%>
+  end_date: <%= Time.now + 3600*10%>
+  price: 234
+  item_id: 6
+
+seven:
+  id: 7
+  start_date: <%= Time.now%>
+  end_date: <%= Time.now + 3600*10%>
+  price: 58
+  item_id: 7

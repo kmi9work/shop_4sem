@@ -1,6 +1,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+  id: 1
   quantity: 10
   storage_id: 1
   item_id: 1
@@ -8,6 +9,7 @@ one:
   updated_at: <%= Time.now() %>
 
 two:
+  id: 2
   quantity: 100
   storage_id: 2
   item_id: 1

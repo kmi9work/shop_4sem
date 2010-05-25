@@ -18,6 +18,17 @@ h1 {
     color: Green;
 }
 
+div.plus {
+	width: 16px;
+	height: 16px;
+	background-color: #FFFFFF;
+	display: inline-block;
+}
+
+div.plus:hover{
+	background-color: #CCFFCC;
+}
+
 div.menu-item {
     margin: 10px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
@@ -63,7 +74,7 @@ th.menu {
 td.data {
     padding: 5px 5px 5px 5px;
     border: 1px Solid Green;
-    width: 640px;
+    width: 840px;
     text-align: center;
 }
 
@@ -90,6 +101,22 @@ input[type=button]:hover, input[type=submit]:hover {
 
 select {
     background-color: #DDFFDD;
+}
+
+table.top{
+	width: 100%;
+  border: 1px 1px 1px 0px Solid Green;
+  border-collapse: collapse;
+}
+
+table.top tr td {
+    padding: 3px 5px 2px 5px;
+    border: 1px Solid Green;
+}
+
+table.top tr th {
+    padding: 5px 5px 5px 5px;
+    border: 1px Solid Green;
 }
 
 table.list {

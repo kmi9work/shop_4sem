@@ -1,11 +1,13 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+  id: 1
   name: Провайдер 1
   address: Лебедянская
   ratio: 15
 
 two:
+  id: 2
   name: Провайдер 2
   address: Бирюлёво
   ratio: 50

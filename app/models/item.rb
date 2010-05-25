@@ -21,9 +21,7 @@ class Item < ActiveRecord::Base
   has_many :item_periods, :dependent => :destroy
   has_many :item_storages, :dependent => :destroy
   has_many :providings, :dependent => :destroy
-  has_many :params, :dependent => :destroy
-
-  serialize :prms, Hash
+  has_many :properties, :dependent => :destroy
 
   def catalogue_name()
     self.catalogue.nil? ? '' : self.catalogue.name
@@ -37,7 +35,7 @@ class Item < ActiveRecord::Base
     end
     good_periods = good_periods.sort{ |a, b| a.start_date <=> b.start_date }
     return 'Уточните у менеджера' if good_periods.empty?
-    return good_periods.last.price.to_s + ' руб.'
+    return good_periods.last.price
   end
 
   def quantity()

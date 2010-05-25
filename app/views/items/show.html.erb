@@ -6,7 +6,7 @@
         <div class = "button-link">
           <span>
             <%= link_to('Вернуться в список товаров', :action => :list,
-              :catalogue_id => @item.catalogue_id) %>
+              :catalogue_id => params['catalogue_id'] ? params['catalogue_id'] : @item.catalogue_id) %>
           </span>
         </div>
       </th>
@@ -29,10 +29,10 @@
       <th>Вес товара:</th>
       <td><%= @item.weight %> кг</td>
     </tr>
-    <% @item.prms.each do |k, v| %>
+    <% @item.properties.each do |property| %>
     <tr>
-      <th><%= k %></th>
-      <td><%= v %></td>
+      <th><%= property[:key] %></th>
+      <td><%= property[:value] %></td>
     </tr>
     <% end %>
     <tr>
@@ -40,8 +40,8 @@
       <td><%= @item.catalogue_name() %></td>
     </tr>
     <tr>
-      <th>Цена:</th>
-      <td><%= @item.price() %></td>
+      <th>Цена(полная, скидка, с учётом скидки):</th>
+      <td><%= @item.price %> руб. | <%=@item[:discount]%>% |<%= @item[:price] %> руб.</td>
     </tr>
     <tr>
       <th>Количество товара:</th>

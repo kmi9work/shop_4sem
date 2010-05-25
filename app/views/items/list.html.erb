@@ -1,4 +1,12 @@
+<%= javascript_include_tag :defaults %>
 <% form_tag({:action => :list}, {:name => 'items_form'}) do %>
+<TABLE class = "top">
+  <tr><th> Лучшие товары:</th>
+  <% @bests.each do |best| %>
+    <td><%= link_to best.name, :action => :show, :id => best.id, :catalogue_id => params['catalogue_id']%></td>
+  <% end %>
+  </tr>
+</table>
 <TABLE class = "list">
   <CAPTION>
     Каталог товаров:
@@ -16,15 +24,38 @@
         <% if @inline_actions.size > 0  %>
         <TH>Действия</TH>
         <% end %>
+        <th>Рейтинг</th>
+        <th>Плюсик</th>
       </TR>
     </THEAD>
     <TBODY>
-      <% @items.each do |i| %>
+      <% @items.each do |item| %>
       <TR>
-        <TD><%= i.name %></TD>
-        <TD><%= i.size_x %> X <%= i.size_y %> X <%= i.size_z %></TD>
-        <TD><%= i.weight %></TD>
-        <%= inline_menu(i) %>
+        <TD><%= item.name %></TD>
+        <TD><%= item.size_x %> X <%= item.size_y %> X <%= item.size_z %></TD>
+        <TD><%= item.weight %></TD>
+        <%= inline_menu(item) %>
+        <td id="rating<%=item.id%>">
+          <%= item.rating%> | <%= item.rating_cat%>
+        </td>
+        <td>
+          <div class="plus"><%= if params['catalogue_id'].blank? 
+                                  act = :plus
+                                else
+                                  act = :plus_cat
+                                end
+                                link_to_remote image_tag("up.png"), 
+                                  :update => "rating#{item.id}", 
+                                  :url => {:action => act, :id => item.id}%></div> 
+          <div class="plus"><%= if params['catalogue_id'].blank?
+                                  act = :minus
+                                else
+                                  act = :minus_cat
+                                end
+                                link_to_remote image_tag("down.png"), 
+                                  :update => "rating#{item.id}", 
+                                  :url => {:action => act, :id => item.id}%></div>
+        </td>
       </TR>
       <% end %>
     </TBODY>
