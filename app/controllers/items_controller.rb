@@ -1,6 +1,18 @@
 class ItemsController < ApplicationController
   layout 'operator_layout'
-
+  
+  def buy
+    respond_to do |wants|
+      wants.js do 
+        item = Item.find(params[:id])
+        item[:rating] +=1
+        item.save
+        
+        render :text => item[:rating].to_s
+      end
+    end
+  end
+  
   def list
     unless params['catalogue_id'].blank?
       @items = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']])
@@ -17,7 +29,7 @@ class ItemsController < ApplicationController
         item = Item.find(params[:id])
         item[:rating] +=1
         item.save
-        render :text => item[:rating].to_s + ' | ' + item[:rating_cat].to_s
+        render :text => item[:rating].to_s
       end
     end
   end
@@ -28,32 +40,10 @@ class ItemsController < ApplicationController
         item = Item.find(params[:id])
         item[:rating] -=1
         item.save
-        render :text => item[:rating].to_s + ' | ' + item[:rating_cat].to_s
+        render :text => item[:rating].to_s
       end
     end
   end
-  
-  def plus_cat
-     respond_to do |wants|
-       wants.js do 
-         item = Item.find(params[:id])
-         item[:rating_cat] +=1
-         item.save
-         render :text => item[:rating].to_s + ' | ' + item[:rating_cat].to_s
-       end
-     end
-   end
-
-   def minus_cat
-     respond_to do |wants|
-       wants.js do 
-         item = Item.find(params[:id])
-         item[:rating_cat] -=1
-         item.save
-         render :text => item[:rating].to_s + ' | ' + item[:rating_cat].to_s
-       end
-     end
-   end
   
   def create
   end

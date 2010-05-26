@@ -19,42 +19,26 @@
     <THEAD>
       <TR>
         <TH>Название</TH>
-        <TH>Размеры</TH>
-        <TH>Вес</TH>
         <% if @inline_actions.size > 0  %>
         <TH>Действия</TH>
         <% end %>
-        <th>Рейтинг</th>
-        <th>Плюсик</th>
+        <th>Цена</th>
+        <th>Количество</th>
       </TR>
     </THEAD>
     <TBODY>
       <% @items.each do |item| %>
       <TR>
         <TD><%= item.name %></TD>
-        <TD><%= item.size_x %> X <%= item.size_y %> X <%= item.size_z %></TD>
-        <TD><%= item.weight %></TD>
-        <%= inline_menu(item) %>
-        <td id="rating<%=item.id%>">
-          <%= item.rating%> | <%= item.rating_cat%>
+        <td><%= inline_menu(item) %> <%= content_tag(:span, 
+                                          link_to_remote("Купить", :update => "quantity#{item.id}", 
+                                          :url => {:action => :buy, :id => item.id}), 
+                                          :class => 'inline-menu-item') if @user == 'anonimus'%></td>
+        <td>
+          <%= item.price ? "#{item.price} руб." : "Уточните у менеджера" %> 
         </td>
         <td>
-          <div class="plus"><%= if params['catalogue_id'].blank? 
-                                  act = :plus
-                                else
-                                  act = :plus_cat
-                                end
-                                link_to_remote image_tag("up.png"), 
-                                  :update => "rating#{item.id}", 
-                                  :url => {:action => act, :id => item.id}%></div> 
-          <div class="plus"><%= if params['catalogue_id'].blank?
-                                  act = :minus
-                                else
-                                  act = :minus_cat
-                                end
-                                link_to_remote image_tag("down.png"), 
-                                  :update => "rating#{item.id}", 
-                                  :url => {:action => act, :id => item.id}%></div>
+          <span id="quantity<%=item.id%>"><%= item.quantity or "Нет в наличии"%></span>
         </td>
       </TR>
       <% end %>

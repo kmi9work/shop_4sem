@@ -41,11 +41,22 @@
     </tr>
     <tr>
       <th>Цена(полная, скидка, с учётом скидки):</th>
-      <td><%= @item.price %> руб. | <%=@item[:discount]%>% |<%= @item[:price] %> руб.</td>
+      <td><%= @item.price ? "#{@item.price} руб. | #{@item[:discount] or "0"}% | #{@item[:price] or @item.price} руб." : "Уточните у менеджера" %></td>
     </tr>
     <tr>
       <th>Количество товара:</th>
       <td><%= @item.quantity() %></td>
+    </tr>
+    <tr>
+      <th>Рейтинг:</th>
+      <td><span id="rating<%=@item.id%>"><%= @item.rating %></span> | 
+        <div class="plus"><%= link_to_remote image_tag("up.png"), 
+                              :update => "rating#{@item.id}", 
+                              :url => {:action => :plus, :id => @item.id}%></div> 
+        <div class="plus"><%= link_to_remote image_tag("down.png"), 
+                              :update => "rating#{@item.id}", 
+                              :url => {:action => :minus, :id => @item.id}%></div>
+      </td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,5 @@
+Купить товар:
+<% remote_form_for(:buy, @item) do %>
+  <%= text_field_tag('item[quantity]', "Количество", :size => 3) %>
+  Склад: <%= select_storage(@item.id) %>
+<% end %>

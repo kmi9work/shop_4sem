@@ -39,12 +39,11 @@ module ApplicationHelper
   def inline_menu(item, inline_actions = nil)
     inline_actions = @inline_actions if inline_actions.nil?
     if inline_actions.size > 0
-       content_tag(:td,
-         inline_actions.map do |a|
-          link = link_to(a[1], :action => a[0], :id => item.id) 
-          link = link_to(a[1], :action => a[0], :id => item.id, 
-            :controller => a[2]) unless a[2].nil?          
-          content_tag(:span, link, :class => 'inline-menu-item') end)
+      inline_actions.map do |a|
+        link = link_to(a[1], :action => a[0], :id => item.id) 
+        link = link_to(a[1], :action => a[0], :id => item.id, :controller => a[2]) unless a[2].nil?          
+        content_tag(:span, link, :class => 'inline-menu-item') 
+      end
     else
       ''
     end

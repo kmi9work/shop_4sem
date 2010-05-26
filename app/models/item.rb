@@ -39,7 +39,7 @@ class Item < ActiveRecord::Base
   end
 
   def quantity()
-    return 'Нет в наличии' if self.item_storages.empty?
+    return nil if self.item_storages.empty?
     return self.item_storages.inject(0){ |s, i| s += i.quantity }
   end
 
