@@ -1,14 +1,58 @@
 class ItemsController < ApplicationController
   layout 'operator_layout'
   
+  def buy_div
+    respond_to do |wants|
+      wants.js do 
+        @item = Item.find(params[:id])
+        unless @fl
+          @fl = true
+          @select_storages, storage_id = select_storages('storage', @item)
+          puts @select_storages, '==========================='
+          item_storage = ItemStorage.find(:first,
+          :conditions => ['storage_id = ? AND item_id = ?',
+            storage_id, @item.id])
+          @count = item_storage.quantity.to_s
+          render :partial => 'buy_div' 
+        end
+      end
+    end
+  end
+  
   def buy
     respond_to do |wants|
       wants.js do 
         item = Item.find(params[:id])
-        item[:rating] +=1
-        item.save
-        
-        render :text => item[:rating].to_s
+        item_storage = ItemStorage.find(:first,
+        :conditions => ['storage_id = ? AND item_id = ?',
+          params[:storage], item.id])
+        q = params[:quantity].to_i
+        if q > item_storage.quantity
+          @id = item.id
+          render :update do |page|
+            page.replace_html("buy#{@id}", inline_menu(item).to_s + render(:partial => 'buy_button') )
+            page.alert("На данном складе нет такого количества товара.")
+          end
+        else
+          item_storage.quantity -= q
+          item_storage.save
+          @id = item.id
+          render :update do |page|
+            page.replace_html("quantity#{@id}", item.quantity.to_s)
+            page.replace_html("buy#{@id}", inline_menu(item).to_s + render(:partial => 'buy_button') )
+          end
+        end   
+      end
+    end
+  end
+  
+  def buy_storage
+    respond_to do |wants|
+      wants.js do
+        item_storage = ItemStorage.find(:first,
+        :conditions => ['storage_id = ? AND item_id = ?',
+          params[:storage], params[:id]])
+        render :text => item_storage.quantity.to_s
       end
     end
   end
@@ -21,6 +65,7 @@ class ItemsController < ApplicationController
       @items = Item.find(:all)
       @bests = Item.find(:all, :order => 'rating DESC', :limit => 3)
     end
+    @fl = false
   end
   
   def plus
@@ -220,5 +265,25 @@ class ItemsController < ApplicationController
       return [[:show, 'Показать']] unless user_class == 'operator'
       return [[:show, 'Показать'], [:edit, 'Редактировать'], 
       [:destroy, 'Удалить'], [:list, 'Поставки', :providings]]
+    end
+    
+  private
+  
+    def select_storages(name, item)
+      is_first = nil
+      selected = nil
+      return "<select id = '#{name}' name = '#{name}'>\n" + item.item_storages.map do |storage| 
+        unless is_first
+          if storage.quantity > 0
+            selected = storage.storage_id
+            is_first = true
+            "<option value='#{selected}' selected>#{storage.storage_name}</option>"
+          end
+        else
+          if storage.quantity > 0
+            "<option value='#{storage.storage_id}'>#{storage.storage_name}</option>"
+          end
+        end
+      end.join + "\n</select>", selected
     end
   end

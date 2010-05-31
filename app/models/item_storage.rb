@@ -4,7 +4,7 @@ class ItemStorage < ActiveRecord::Base
   validates_presence_of :item_id,
     :message => 'Должен быть указан товар'
   validates_numericality_of :quantity, :allow_nil => false,
-    :less_than => 1000000, :greater_than => 0,
+    :less_than => 1000000, :greater_or_equal_than => 0,
     :message => 'Количество товаров должно быть положительным числом < 1000000'
 
   validates_associated :storage,

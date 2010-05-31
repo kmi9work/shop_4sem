@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
   helper_method :user_class
 
   before_filter :set_user, :errors_validator_start, :actions_filter
-
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
   protect_from_forgery # :secret => 'f0c0446b1a8a8e21995ebb133543cb35'
