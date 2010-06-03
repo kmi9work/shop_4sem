@@ -1147,3 +1147,201 @@ Rendering items/list
   [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
   [4;36;1mItemStorage Load (0.2ms)[0m   [0;1mSELECT * FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
 Completed in 70ms (View: 49, DB: 13) | 200 OK [http://localhost/anonimus]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-06-03 16:38:20) [GET]
+  Parameters: {"user_name"=>"operator"}
+  [4;36;1mItem Load (441.4ms)[0m   [0;1mSELECT * FROM "items" [0m
+  [4;35;1mItem Load (220.7ms)[0m   [0mSELECT * FROM "items" ORDER BY rating DESC LIMIT 3[0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;36;1mCatalogue Load (43.4ms)[0m   [0;1mSELECT * FROM "catalogues" ORDER BY name[0m
+  [4;35;1mSQL (161.7ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 3) [0m
+  [4;36;1mItemPeriod Load (0.5ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 3) [0m
+  [4;35;1mSQL (10.5ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 3) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;35;1mItemPeriod Load (0.3ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 7) [0m
+  [4;36;1mItemPeriod Load (0.3ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 7) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 7) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 6) [0m
+  [4;35;1mItemPeriod Load (0.4ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 6) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 6) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 1) [0m
+  [4;36;1mItemPeriod Load (0.3ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 1) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
+  [4;36;1mItemStorage Load (0.4ms)[0m   [0;1mSELECT * FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 4) [0m
+  [4;36;1mItemPeriod Load (0.3ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 4) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 4) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 5) [0m
+  [4;35;1mItemPeriod Load (0.3ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 5) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 5) [0m
+Completed in 2130ms (View: 923, DB: 885) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#list (for 127.0.0.1 at 2010-06-03 16:38:28) [GET]
+  Parameters: {"user_name"=>"anonimus"}
+  [4;35;1mItem Load (2.7ms)[0m   [0mSELECT * FROM "items" [0m
+  [4;36;1mItem Load (1.0ms)[0m   [0;1mSELECT * FROM "items" ORDER BY rating DESC LIMIT 3[0m
+Rendering template within layouts/operator_layout
+Rendering items/list
+  [4;35;1mCatalogue Load (1.0ms)[0m   [0mSELECT * FROM "catalogues" ORDER BY name[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 3) [0m
+  [4;35;1mItemPeriod Load (0.3ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 3) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 3) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;36;1mItemPeriod Load (0.2ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 2) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 2) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 7) [0m
+  [4;35;1mItemPeriod Load (0.2ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 7) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 7) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 6) [0m
+  [4;36;1mItemPeriod Load (0.3ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 6) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 6) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 1) [0m
+  [4;35;1mItemPeriod Load (0.2ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
+  [4;35;1mItemStorage Load (0.3ms)[0m   [0mSELECT * FROM "item_storages" WHERE ("item_storages".item_id = 1) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 4) [0m
+  [4;35;1mItemPeriod Load (0.2ms)[0m   [0mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 4) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 4) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "item_periods" WHERE ("item_periods".item_id = 5) [0m
+  [4;36;1mItemPeriod Load (0.3ms)[0m   [0;1mSELECT * FROM "item_periods" WHERE ("item_periods".item_id = 5) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "item_storages" WHERE ("item_storages".item_id = 5) [0m
+Completed in 66ms (View: 47, DB: 11) | 200 OK [http://localhost/anonimus]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:34) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (18.2ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (14.0ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.5ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:34.241618', "rating" = 51 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Completed in 64ms (View: 1, DB: 34) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:35) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.9ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:35.931103', "rating" = 52 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Completed in 29ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:36) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.6ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:36.637514', "rating" = 53 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Completed in 28ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:36) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.6ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.6ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.6ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:37.022498', "rating" = 54 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+Completed in 31ms (View: 1, DB: 5) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:37) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:37.166766', "rating" = 55 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Completed in 27ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:37) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:37.389792', "rating" = 56 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Completed in 28ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:38) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.9ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.6ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.6ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.5ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:38.764959', "rating" = 57 WHERE "id" = 1[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mCOMMIT[0m
+Completed in 43ms (View: 1, DB: 12) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:38) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.6ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:38.858419', "rating" = 58 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+Completed in 28ms (View: 1, DB: 4) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:39) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.6ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.5ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.5ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:39.663668', "rating" = 59 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Completed in 28ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ItemsController#buy (for 127.0.0.1 at 2010-06-03 16:38:41) [POST]
+  Parameters: {"authenticity_token"=>"MLp+aE8ykIC7S7QM+X4rV8Gu5PmtTG+EVLD2kyjY6Bs=", "id"=>"1", "_"=>""}
+  [4;36;1mItem Load (0.7ms)[0m   [0;1mSELECT * FROM "items" WHERE ("items"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mCatalogue Load (0.5ms)[0m   [0;1mSELECT * FROM "catalogues" WHERE ("catalogues"."id" = 1) [0m
+  [4;35;1mCatalogue Exists (0.6ms)[0m   [0mSELECT "catalogues".id FROM "catalogues" WHERE ("catalogues"."name" = E'Catalogue 1' AND "catalogues".id <> 1) LIMIT 1[0m
+  [4;36;1mItem Update (0.4ms)[0m   [0;1mUPDATE "items" SET "updated_at" = '2010-06-03 12:38:41.195909', "rating" = 60 WHERE "id" = 1[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Completed in 29ms (View: 1, DB: 3) | 200 OK [http://localhost/items/buy/1]
