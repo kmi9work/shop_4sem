@@ -1,0 +1,16 @@
+<div class="buy">
+Купить товар: 
+<% remote_form_for('buy', :url => {:action => :buy, :id => params[:id]}) do %>
+  Количество: <%= text_field_tag('quantity', 0, :size => 1) %><br>
+  Склад: <%= @select_storages %><br>
+  На складе: <span id='buy_storage'><%= @count %></span>
+  <%= observe_field 'storage', 
+                    :update => 'buy_storage', 
+                    :frequency => 0.5, 
+                    :url => {:action => 'buy_storage', :id => @item.id}, 
+                    :with => 'storage' %>
+  <br>
+  <%= submit_tag 'Купить'%>
+<% end %>
+
+</div>

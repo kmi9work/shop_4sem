@@ -1,0 +1,3 @@
+<%=content_tag(:span, link_to_remote("Купить", :update => "buy#{@id}", 
+                                      :url => {:action => :buy_div, :id => @id, :pushed => @id}), 
+                                      :class => 'inline-menu-item')%>
