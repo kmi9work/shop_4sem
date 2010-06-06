@@ -1,4 +1,5 @@
 <div class="buy">
+<%=link_to_remote "[x]", :url => {:action => 'delete_buy_div', :id => params[:id]}%>
 Купить товар: 
 <% remote_form_for('buy', :url => {:action => :buy, :id => params[:id]}) do %>
   Количество: <%= text_field_tag('quantity', 0, :size => 1) %><br>

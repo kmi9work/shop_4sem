@@ -9,3 +9,13 @@ two:
   id: 2
   name: storage 2
   info: info storage 2
+
+1one:
+  id: 3
+  name: storage 3
+  info: info storage 3
+
+1two:
+  id: 4
+  name: storage 4
+  info: info storage 4

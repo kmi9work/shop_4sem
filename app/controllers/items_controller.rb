@@ -19,6 +19,17 @@ class ItemsController < ApplicationController
     end
   end
   
+  def delete_buy_div
+    respond_to do |wants|
+      wants.js do 
+        @id = params[:id] 
+        render :update do |page|
+          page.replace_html("buy#{@id}", inline_menu(@id).to_s + render(:partial => 'buy_button') )
+        end
+      end
+    end
+  end
+  
   def buy
     respond_to do |wants|
       wants.js do 
@@ -30,16 +41,27 @@ class ItemsController < ApplicationController
         if q > item_storage.quantity
           @id = item.id
           render :update do |page|
-            page.replace_html("buy#{@id}", inline_menu(item).to_s + render(:partial => 'buy_button') )
+            page.replace_html("buy#{@id}", inline_menu(@id).to_s + render(:partial => 'buy_button') )
             page.alert("На данном складе нет такого количества товара.")
+          end
+        elsif q < 0
+          @id = item.id
+          render :update do |page|
+            page.replace_html("buy#{@id}", inline_menu(@id).to_s + render(:partial => 'buy_button') )
+            page.alert("Количество товара должно быть положительным числом.")
           end
         else
           item_storage.quantity -= q
+          if params['catalogue_id'].blank?
+            item_storage.buy_count += 1
+          else
+            item_storage.buy_cat_count += 1
+          end
           item_storage.save
           @id = item.id
           render :update do |page|
             page.replace_html("quantity#{@id}", item.quantity.to_s)
-            page.replace_html("buy#{@id}", inline_menu(item).to_s + render(:partial => 'buy_button') )
+            page.replace_html("buy#{@id}", inline_menu(@id).to_s + render(:partial => 'buy_button') )
           end
         end   
       end
@@ -60,10 +82,10 @@ class ItemsController < ApplicationController
   def list
     unless params['catalogue_id'].blank?
       @items = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']])
-      @bests = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']], :order => 'rating_cat DESC', :limit => 3)
+      @bests = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']], :order => 'buy_count DESC', :limit => 3)
     else
       @items = Item.find(:all)
-      @bests = Item.find(:all, :order => 'rating DESC', :limit => 3)
+      @bests = Item.find(:all, :order => 'buy_cat_count DESC', :limit => 3)
     end
     @fl = false
   end
@@ -246,14 +268,13 @@ class ItemsController < ApplicationController
 
     def show
       @item = Item.find(params[:id])
-      if @item.rating == Item.minimum('rating')
+      if @item.rating == Item.minimum('buy_count')
         @item[:price] = 0.95 * @item.price
         @item[:discount] = 5
-      elsif @item.rating_cat == Item.minimum('rating_cat')
+      elsif @item.rating_cat == Item.minimum('buy_cat_coun')
         @item[:price] = 0.97 * @item.price
         @item[:discount] = 3
       end
-      
     end
 
     def ItemsController.menu_items(user_class)

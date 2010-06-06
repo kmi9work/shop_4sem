@@ -5,13 +5,69 @@ one:
   quantity: 10
   storage_id: 1
   item_id: 1
-  created_at: <%= Time.now() %>
-  updated_at: <%= Time.now() %>
 
 two:
   id: 2
   quantity: 100
   storage_id: 2
   item_id: 1
-  created_at: <%= Time.now() %>
-  updated_at: <%= Time.now() %>
+
+three:
+  id: 3
+  quantity: 10
+  storage_id: 1
+  item_id: 2
+
+four:
+  id: 4
+  quantity: 100
+  storage_id: 2
+  item_id: 2
+  
+five:
+  id: 5
+  quantity: 10
+  storage_id: 1
+  item_id: 3
+
+six:
+  id: 6
+  quantity: 12
+  storage_id: 2
+  item_id: 3
+
+1one:
+  id: 7
+  quantity: 10
+  storage_id: 1
+  item_id: 4
+
+1two:
+  id: 8
+  quantity: 14
+  storage_id: 2
+  item_id: 4
+
+1three:
+  id: 9
+  quantity: 110
+  storage_id: 3
+  item_id: 4
+
+1four:
+  id: 10
+  quantity: 6100
+  storage_id: 4
+  item_id: 5
+
+1five:
+  id: 11
+  quantity: 340
+  storage_id: 3
+  item_id: 6
+
+1six:
+  id: 12
+  quantity: 2
+  storage_id: 2
+  item_id: 7

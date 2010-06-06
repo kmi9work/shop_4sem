@@ -32,7 +32,7 @@
       <TR>
         <TD><%= item.name %></TD>
         <td id ="buy<%=item.id%>">
-          <%= inline_menu(item) %><%= render :partial => 'buy_button' if @user == 'anonimus'%></td>
+          <%= inline_menu(item.id) %><%= render :partial => 'buy_button' if @user == 'anonimus'%></td>
         <td>
           <%= item.price ? "#{item.price} руб." : "Уточните у менеджера" %> 
         </td>
