@@ -29,6 +29,7 @@
     </THEAD>
     <TBODY>
       <% @items.each do |item| %>
+      <% if item.quantity > 0 %>
       <% @id = item.id %>
       <TR>
         <TD><%= item.name %></TD>
@@ -44,6 +45,7 @@
           <span id="buy_count<%=item.id%>"><%= item.buy_count%></span>
         </td>
       </TR>
+      <% end %>
       <% end %>
     </TBODY>
   <% end %>
