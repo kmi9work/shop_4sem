@@ -9,6 +9,7 @@ one:
   weight: 13
   rating: 50
   rating_cat: 4
+  buy_count: 13
   catalogue_id: 1
 
 two:
@@ -20,6 +21,7 @@ two:
   weight: 13
   rating: 40
   rating_cat: 87
+  buy_count: 15
   catalogue_id: 1
 
 three:
@@ -31,6 +33,7 @@ three:
   weight: 13
   rating: 10
   rating_cat: 5
+  buy_count: 7
   catalogue_id: 2
 
 four:
@@ -42,6 +45,7 @@ four:
   weight: 13
   rating: 777
   rating_cat: 5
+  buy_count: 99
   catalogue_id: 2
 
 five:
@@ -53,6 +57,7 @@ five:
   weight: 13
   rating: 13
   rating_cat: 48
+  buy_count: 44
   catalogue_id: 2
 
 six:
@@ -64,6 +69,7 @@ six:
   weight: 13
   rating: 2
   rating_cat: 3
+  buy_count: 57
   catalogue_id: 2
 
 seven:
@@ -75,4 +81,5 @@ seven:
   weight: 13
   rating: 10
   rating_cat: 34
+  buy_count: 190
   catalogue_id: 2

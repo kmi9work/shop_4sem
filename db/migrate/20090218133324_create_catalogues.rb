@@ -3,7 +3,7 @@ class CreateCatalogues < ActiveRecord::Migration
     create_table :catalogues do |t|
       t.column :name, :text, :null => false
       t.column :info, :text
-
+      
       t.timestamps
     end
 

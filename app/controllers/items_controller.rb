@@ -52,15 +52,13 @@ class ItemsController < ApplicationController
           end
         else
           item_storage.quantity -= q
-          if params['catalogue_id'].blank?
-            item_storage.buy_count += 1
-          else
-            item_storage.buy_cat_count += 1
-          end
+          item.buy_count += q
+          item.save
           item_storage.save
           @id = item.id
           render :update do |page|
             page.replace_html("quantity#{@id}", item.quantity.to_s)
+            page.replace_html("buy_count#{@id}", item.buy_count.to_s)
             page.replace_html("buy#{@id}", inline_menu(@id).to_s + render(:partial => 'buy_button') )
           end
         end   
@@ -79,15 +77,32 @@ class ItemsController < ApplicationController
     end
   end
   
+  def buy_price
+    respond_to do |wants|
+      wants.js do
+        item = Item.find(params[:id])
+        if item.buy_count == Item.minimum('buy_count')
+          price = 0.95 * item.price
+          discount = 5
+        elsif item.buy_count == item.catalogue.min
+          price = 0.97 * item.price
+          discount = 3
+        else
+          price, discount = item.price, 0
+        end
+        render :text => "#{item.price * params[:quantity].to_i} - #{discount}% = #{price * params[:quantity].to_i}"
+      end
+    end
+  end
+  
   def list
     unless params['catalogue_id'].blank?
       @items = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']])
-      @bests = Item.find(:all, :conditions => ['catalogue_id = ?', params['catalogue_id']], :order => 'buy_count DESC', :limit => 3)
+      @bests = @items.sort{|a,b| b.buy_count <=> a.buy_count}[0..2]
     else
       @items = Item.find(:all)
-      @bests = Item.find(:all, :order => 'buy_cat_count DESC', :limit => 3)
+      @bests = @items.sort{|a,b| b.buy_count <=> a.buy_count}[0..2]
     end
-    @fl = false
   end
   
   def plus
@@ -268,12 +283,14 @@ class ItemsController < ApplicationController
 
     def show
       @item = Item.find(params[:id])
-      if @item.rating == Item.minimum('buy_count')
-        @item[:price] = 0.95 * @item.price
-        @item[:discount] = 5
-      elsif @item.rating_cat == Item.minimum('buy_cat_coun')
-        @item[:price] = 0.97 * @item.price
-        @item[:discount] = 3
+      if @item.buy_count == Item.minimum('buy_count')
+        @price = 0.95 * @item.price
+        @discount = 5
+      elsif @item.buy_count == @item.catalogue.min
+        @price = 0.97 * @item.price
+        @discount = 3
+      else
+        @price, @discount = @item.price, 0
       end
     end
 

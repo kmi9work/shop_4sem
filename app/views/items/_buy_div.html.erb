@@ -2,14 +2,20 @@
 <%=link_to_remote "[x]", :url => {:action => 'delete_buy_div', :id => params[:id]}%>
 Купить товар: 
 <% remote_form_for('buy', :url => {:action => :buy, :id => params[:id]}) do %>
-  Количество: <%= text_field_tag('quantity', 0, :size => 1) %><br>
+  Количество: <%= text_field_tag('quantity', 0, :size => 1) %> <br>
+  Цена: <span id='buy_price<%=@item.id%>'>0</span><br>
   Склад: <%= @select_storages %><br>
-  На складе: <span id='buy_storage'><%= @count %></span>
+  На складе: <span id="buy_storage<%=@item.id%>"><%= @count %></span>
   <%= observe_field 'storage', 
-                    :update => 'buy_storage', 
+                    :update => "buy_storage#{@item.id}", 
                     :frequency => 0.5, 
                     :url => {:action => 'buy_storage', :id => @item.id}, 
                     :with => 'storage' %>
+  <%= observe_field 'quantity', 
+                    :update => "buy_price#{@item.id}", 
+                    :frequency => 0.5, 
+                    :url => {:action => 'buy_price', :id => @item.id}, 
+                    :with => 'quantity' %>
   <br>
   <%= submit_tag 'Купить'%>
 <% end %>

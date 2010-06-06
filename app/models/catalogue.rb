@@ -11,4 +11,8 @@ class Catalogue < ActiveRecord::Base
       self[n] = self[n].strip if self[n].kind_of?(String)
     end
   end
+  
+  def min
+    self.items.min{|a,b| a.buy_count <=> b.buy_count}.buy_count
+  end
 end

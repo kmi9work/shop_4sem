@@ -9,13 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100606180348) do
+ActiveRecord::Schema.define(:version => 20100606194644) do
 
   create_table "catalogues", :force => true do |t|
-    t.text     "name",       :null => false
+    t.text     "name",          :null => false
     t.text     "info"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "min_buy_count"
   end
 
   add_index "catalogues", ["name"], :name => "catalogues_name_u", :unique => true

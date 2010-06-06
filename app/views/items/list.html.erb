@@ -3,7 +3,7 @@
 <TABLE class = "top">
   <tr><th> Лучшие товары:</th>
   <% @bests.each do |best| %>
-    <td><%= link_to best.name, :action => :show, :id => best.id, :catalogue_id => params['catalogue_id']%></td>
+    <td><%= link_to best.name, :action => :show, :id => best.id%></td>
   <% end %>
   </tr>
 </table>
@@ -24,6 +24,7 @@
         <% end %>
         <th>Цена</th>
         <th>Количество</th>
+        <th>Куплено</th>
       </TR>
     </THEAD>
     <TBODY>
@@ -38,6 +39,9 @@
         </td>
         <td>
           <span id="quantity<%=item.id%>"><%= item.quantity or "Нет в наличии"%></span>
+        </td>
+        <td>
+          <span id="buy_count<%=item.id%>"><%= item.buy_count%></span>
         </td>
       </TR>
       <% end %>

@@ -6,7 +6,7 @@
         <div class = "button-link">
           <span>
             <%= link_to('Вернуться в список товаров', :action => :list,
-              :catalogue_id => params['catalogue_id'] ? params['catalogue_id'] : @item.catalogue_id) %>
+              :catalogue_id => params['catalogue_id'] )%>
           </span>
         </div>
       </th>
@@ -41,7 +41,7 @@
     </tr>
     <tr>
       <th>Цена(полная, скидка, с учётом скидки):</th>
-      <td><%= @item.price ? "#{@item.price} руб. | #{@item[:discount] or "0"}% | #{@item[:price] or @item.price} руб." : "Уточните у менеджера" %></td>
+      <td><%= @item.price ? "#{@item.price} руб. | #{@discount}% | #{@price} руб." : "Уточните у менеджера" %></td>
     </tr>
     <tr>
       <th>Количество товара:</th>
